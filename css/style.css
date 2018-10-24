@@ -1,0 +1,65 @@
+h1 {
+   font-size: 50px;
+   color: purple;
+   font-family: 'Permanent Marker', cursive;
+   font-weight: normal;
+   font-style: normal;
+   text-shadow: 4px 4px 5px gray;
+   text-align: center;
+}
+h2 {
+   font-size: 50px;
+   color: purple;
+   font-family: 'Permanent Marker', cursive;
+   font-weight: normal;
+   font-style: normal;
+}
+
+@keyframes test{
+  from {
+    opacity: 0;
+    /* transform: scale(0.8) rotateY(Odeg); */
+
+  }
+
+}
+h1 {
+  padding: 100px;
+  animation-name: test;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+}
+
+.iceland {
+  height: 289px;
+  width: 160px;
+  border-radius: 80px;
+  box-shadow: 30px 12px 3px black;
+  padding: 0px;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+.vaga {
+  height: 289px;
+  width: 160px;
+  border-radius: 80px;
+  box-shadow: 30px 12px 3px black;
+  padding: 0px;
+  animation-name: test;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+
+}
+
+.mirror {
+  height: 289px;
+  width: 160px;
+  border-radius: 80px;
+  box-shadow: 30px 12px 3px black;
+  padding: 0px;
+  animation-name: test;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+}
