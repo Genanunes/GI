@@ -63,3 +63,8 @@ h1 {
   animation-duration: 9s;
   animation-fill-mode: forwards;
 }
+
+.image {
+  display: flex;
+  justify-content: space-between;
+}
